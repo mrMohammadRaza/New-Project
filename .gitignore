@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python virtual environments & bytecode
+venv/
+.venv/
+env/
+*/venv/
+*/.venv/
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Local Environment Variables
+.env
+*/.env
+!.env.example
+!*/.env.example
+
+# Local Uploads & Static Cache
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
